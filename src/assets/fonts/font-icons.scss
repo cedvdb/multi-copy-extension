@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../assets/fonts/fonts/icons.ttf?fc9ppb') format('truetype'),
+    url('../assets/fonts/fonts/icons.woff?fc9ppb') format('woff'),
+    url('../assets/fonts/fonts/icons.svg?fc9ppb#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-clone:before {
+  content: "\f24d";
+}

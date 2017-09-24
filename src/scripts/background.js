@@ -21,7 +21,7 @@ function onCopy(copy){
 
 // we just save last 100
 function checkLength(copies){
-	if(copies.length > 100)
+	if(copies.length > 50)
 		copies.pop();
 }
 

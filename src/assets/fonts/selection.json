@@ -1,0 +1,78 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M950.857 932.571v-621.714c0-9.714-8.571-18.286-18.286-18.286h-621.714c-9.714 0-18.286 8.571-18.286 18.286v621.714c0 9.714 8.571 18.286 18.286 18.286h621.714c9.714 0 18.286-8.571 18.286-18.286zM1024 310.857v621.714c0 50.286-41.143 91.429-91.429 91.429h-621.714c-50.286 0-91.429-41.143-91.429-91.429v-621.714c0-50.286 41.143-91.429 91.429-91.429h621.714c50.286 0 91.429 41.143 91.429 91.429zM804.571 91.429v91.429h-73.143v-91.429c0-9.714-8.571-18.286-18.286-18.286h-621.714c-9.714 0-18.286 8.571-18.286 18.286v621.714c0 9.714 8.571 18.286 18.286 18.286h91.429v73.143h-91.429c-50.286 0-91.429-41.143-91.429-91.429v-621.714c0-50.286 41.143-91.429 91.429-91.429h621.714c50.286 0 91.429 41.143 91.429 91.429z"
+        ],
+        "width": 1024,
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "clone"
+        ],
+        "defaultCode": 62029,
+        "grid": 14
+      },
+      "attrs": [],
+      "properties": {
+        "name": "clone",
+        "id": 537,
+        "order": 13,
+        "prevSize": 28,
+        "code": 62029
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 537
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icons"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": false,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "fa-",
+      "metadata": {
+        "fontFamily": "icons",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "autoHost": true,
+      "showMetrics": false,
+      "showMetadata": false,
+      "showSelector": false,
+      "selector": "i",
+      "showVersion": false,
+      "noie8": true,
+      "ie7": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "NWE4ZTgwMDcxOGVlNmNlNDc3ZGMwMjhmNmMyZDc1NGYjMSMxNTA1MDg3NjM0IyMj"
+    }
+  }
+}

@@ -14,15 +14,17 @@ function addCopies(copies){
 		const innerHtml = `	
 		<li class="button li">
 			<i class="fa fa-clone"></i>			
-			<div class="txt">${copyTxt}</div>
+			<textarea class="txt" readonly> ${copyTxt}</textarea>
 		</li>`
 		list.innerHTML = list.innerHTML + innerHtml;
-	})
+	});
 }
 
 list.addEventListener('click', e => {
-	console.log(e.target)
+	/* css pointer event is making sure that we are only retrieving li elems 
+	and not a child */
+	console.log(e.target, e.target.querySelector('.txt'))
 	const txtElem = e.target.querySelector('.txt');
-	txt = txtElem.innerText;
-	console.log(txt);
+	txtElem.select();
+  document.execCommand('copy'); 
 })

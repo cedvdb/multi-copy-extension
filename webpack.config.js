@@ -1,8 +1,9 @@
-var debug = process.env.NODE_ENV !== "production";
-var webpack = require('webpack');
+const debug = process.env.NODE_ENV !== "production";
+const webpack = require('webpack');
 
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   context: __dirname,
@@ -40,7 +41,9 @@ module.exports = {
       }
 		]
 	},
-  plugins: [ new HtmlWebpackPlugin({
+  plugins: [ 
+		new UglifyJSPlugin(),
+		new HtmlWebpackPlugin({
 		"template": "./src/popup.html",
 		"filename": "./popup.html",
 		"excludeChunks": ["background", "content_script"]

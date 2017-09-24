@@ -1,6 +1,6 @@
 @import "~@dasnoo/material-html/all";
-$fa-font-path: "~font-awesome/fonts";
-@import '~font-awesome/scss/font-awesome';
+
+@import '../assets/fonts/font-icons';
 
 :root{
 	@include apply-theme-l('blue', 'amber');
@@ -19,7 +19,16 @@ ul{
 i{
 	margin-right: var(--spacing-md);
 }
-.txt{
+textarea{
+	flex-grow : 1;
+	margin: 0;
+	padding: 0;
+	height: 1.2rem;
+	outline: none;
+	resize: none;
+	font-size: inherit;
+	font: inherit;
+	border: none;
 	white-space: nowrap;
   overflow: hidden;
 	text-overflow: ellipsis;
