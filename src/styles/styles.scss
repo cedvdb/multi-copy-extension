@@ -1,0 +1,37 @@
+@import "~@dasnoo/material-html/all";
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome';
+
+:root{
+	@include apply-theme-l('blue', 'amber');
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	width: 30rem;
+	height: 30rem;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+i{
+	margin-right: var(--spacing-md);
+}
+.txt{
+	white-space: nowrap;
+  overflow: hidden;
+	text-overflow: ellipsis;
+}
+.li{
+	display: flex;
+	align-items: center;
+	padding: var(--spacing-md);
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+.li > *{
+	/* so events fall through to the li elem*/
+	pointer-events: none;	
+}
